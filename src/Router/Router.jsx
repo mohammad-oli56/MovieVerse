@@ -7,6 +7,8 @@ import Error from "../pages/Error";
 import Home from "../pages/Home";
 import Login from "../Component/Login";
 import Signup from "../Component/Signup";
+import SubDetails from "../Component/SubDetails";
+import Allmovies from "../Component/Allmovies";
 
   export const router = createBrowserRouter([
     {
@@ -37,6 +39,15 @@ import Signup from "../Component/Signup";
          {
             path :'signup',
             element:<Signup></Signup>
+         },
+         {
+          path:'/subDetails/:id',
+          Component:SubDetails,
+          loader:()=>fetch("/sub_plan.json")
+         },
+         {
+          path:'allmovies',
+          Component:Allmovies
          }
       ]
     },

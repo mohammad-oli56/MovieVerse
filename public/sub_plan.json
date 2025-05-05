@@ -5,7 +5,7 @@
     "thumbnail_logo": "https://example.com/logos/movieverse-basic.png",
     "frequency": "monthly",
     "price": 6.99,
-    "description": "Stream on 1 screen at a time in Standard Definition. Unlimited movies and TV shows.",
+    "description": "Stream on 1 screen at a time in Standard Definition. Unlimited movies and TV.",
     "features": ["SD Streaming", "1 Device", "Unlimited Content"],
     "subscription_benefits": ["Cancel Anytime", "No Ads"],
     "ratings": 4.0,
