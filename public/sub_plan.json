@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "MovieVerse Basic",
+    "thumbnail_logo": "https://example.com/logos/movieverse-basic.png",
+    "frequency": "monthly",
+    "price": 6.99,
+    "description": "Stream on 1 screen at a time in Standard Definition. Unlimited movies and TV shows.",
+    "features": ["SD Streaming", "1 Device", "Unlimited Content"],
+    "subscription_benefits": ["Cancel Anytime", "No Ads"],
+    "ratings": 4.0,
+    "number_of_reviews": 15000
+  },
+  {
+    "id": 2,
+    "name": "MovieVerse Standard",
+    "thumbnail_logo": "https://example.com/logos/movieverse-standard.png",
+    "frequency": "yearly",
+    "price": 69.99,
+    "description": "Stream on 2 devices simultaneously in High Definition.",
+    "features": ["HD Streaming", "2 Devices", "Offline Downloads"],
+    "subscription_benefits": ["Better video quality", "Watch on multiple devices"],
+    "ratings": 4.4,
+    "number_of_reviews": 25000
+  },
+  {
+    "id": 3,
+    "name": "MovieVerse Premium",
+    "thumbnail_logo": "https://example.com/logos/movieverse-premium.png",
+    "frequency": "yearly",
+    "price": 109.99,
+    "description": "Stream on 4 devices at a time in Ultra HD with the best quality experience.",
+    "features": ["4K Ultra HD", "4 Devices", "Priority Streaming"],
+    "subscription_benefits": ["Best for families", "High resolution on all screens"],
+    "ratings": 4.8,
+    "number_of_reviews": 42000
+  },
+  {
+    "id": 4,
+    "name": "MovieVerse Kids",
+    "thumbnail_logo": "https://example.com/logos/movieverse-kids.png",
+    "frequency": "monthly",
+    "price": 4.99,
+    "description": "A safe space for kids to watch fun and educational content.",
+    "features": ["Parental Controls", "Ad-Free", "Kid-friendly UI"],
+    "subscription_benefits": ["Curated content", "Educational Shows"],
+    "ratings": 4.5,
+    "number_of_reviews": 8500
+  },
+  {
+    "id": 5,
+    "name": "MovieVerse Docs",
+    "thumbnail_logo": "https://example.com/logos/movieverse-docs.png",
+    "frequency": "monthly",
+    "price": 5.99,
+    "description": "Exclusive access to award-winning documentaries and real stories.",
+    "features": ["HD Streaming", "Curated Documentaries", "Weekly New Releases"],
+    "subscription_benefits": ["Educational Focus", "Real-World Stories"],
+    "ratings": 4.3,
+    "number_of_reviews": 4200
+  },
+  {
+    "id": 6,
+    "name": "MovieVerse Classics",
+    "thumbnail_logo": "https://example.com/logos/movieverse-classics.png",
+    "frequency": "yearly",
+    "price": 49.99,
+    "description": "Rediscover classic films and TV shows from the golden age of cinema.",
+    "features": ["Restored HD Classics", "No Ads", "Cult Favorites"],
+    "subscription_benefits": ["Perfect for cinephiles", "Nostalgic experience"],
+    "ratings": 4.6,
+    "number_of_reviews": 6800
+  }
+]
