@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "MovieVerse Basic",
-    "thumbnail_logo": "https://example.com/logos/movieverse-basic.png",
+    "thumbnail_logo": "https://spb-cdn.coreware.com/cache/image-full-13291-ad853032c8358957586a5f77f7bef134.jpg",
     "frequency": "monthly",
     "price": 6.99,
     "description": "Stream on 1 screen at a time in Standard Definition. Unlimited movies and TV.",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "MovieVerse Standard",
-    "thumbnail_logo": "https://example.com/logos/movieverse-standard.png",
+    "thumbnail_logo": "https://c8.alamy.com/comp/2JAM5NM/standard-text-written-on-black-grungy-zig-zag-borders-round-stamp-2JAM5NM.jpg",
     "frequency": "yearly",
     "price": 69.99,
     "description": "Stream on 2 devices simultaneously in High Definition.",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "MovieVerse Premium",
-    "thumbnail_logo": "https://example.com/logos/movieverse-premium.png",
+    "thumbnail_logo": "https://cdn.vectorstock.com/i/1000v/72/36/premium-logo-simple-style-vector-19137236.jpg",
     "frequency": "yearly",
     "price": 109.99,
     "description": "Stream on 4 devices at a time in Ultra HD with the best quality experience.",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "MovieVerse Kids",
-    "thumbnail_logo": "https://example.com/logos/movieverse-kids.png",
+    "thumbnail_logo": "https://c8.alamy.com/comp/R708XW/kids-zone-logo-sign-hand-written-display-colored-text-stitched-patched-sewed-decorative-funny-letters-R708XW.jpg",
     "frequency": "monthly",
     "price": 4.99,
     "description": "A safe space for kids to watch fun and educational content.",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "MovieVerse Docs",
-    "thumbnail_logo": "https://example.com/logos/movieverse-docs.png",
+    "thumbnail_logo": "https://cdn.pixabay.com/photo/2023/06/01/13/05/documents-logo-8033573_960_720.png",
     "frequency": "monthly",
     "price": 5.99,
     "description": "Exclusive access to award-winning documentaries and real stories.",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "MovieVerse Classics",
-    "thumbnail_logo": "https://example.com/logos/movieverse-classics.png",
+    "thumbnail_logo": "https://c8.alamy.com/comp/2FMP93J/classic-text-written-on-red-grungy-zig-zag-borders-round-stamp-2FMP93J.jpg",
     "frequency": "yearly",
     "price": 49.99,
     "description": "Rediscover classic films and TV shows from the golden age of cinema.",
