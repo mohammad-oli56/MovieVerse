@@ -10,6 +10,7 @@ import Signup from "../Component/Signup";
 import SubDetails from "../Component/SubDetails";
 import Allmovies from "../Component/Allmovies";
 import PrivateRut from "../PrivateRoute/PrivateRut";
+import Profile from "../Component/Profile";
 
   export const router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ import PrivateRut from "../PrivateRoute/PrivateRut";
          {
           path:'allmovies',
          element: <PrivateRut> <Allmovies></Allmovies> </PrivateRut>
+         },
+         {
+          path:"/profile",
+         element:<PrivateRut> <Profile></Profile></PrivateRut>
          }
       ]
     },
