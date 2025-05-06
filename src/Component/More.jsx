@@ -5,7 +5,7 @@ import { MdCloudDownload, MdSwitchAccount } from 'react-icons/md';
 
 const More = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-3 rounedd-lg'>
+        <div className='grid  grid-cols-1 lg:grid-cols-2 gap-3 rounedd-lg'>
             <div className="card card-border bg-base-100 bg-[radial-gradient(195%_160%_at_0%_25%,rgba(0,28,142,1)_0%,rgba(227,77,77,1)_90%)]">
                 <div className="card-body">
                     <h2 className="card-title font-bold text-4xl">Enjoy on your TV</h2>

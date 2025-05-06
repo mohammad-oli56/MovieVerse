@@ -10,7 +10,7 @@ const Singlecard = ({ card }) => {
   const navigate = useNavigate()
 
   return (
-    <div className="p-6 h-90 border rounded-lg shadow-[-5px_-10px_39px_-4px_rgba(0,255,255,0.7),0px_0px_40px_0px_rgba(0,0,255,0.5),0px_0px_60px_0px_rgba(0,0,128,0.3)] w-full bg-[linear-gradient(170deg,_rgba(249,115,22,1),_rgba(219,39,119,1)_26%,_rgba(99,102,241,1)_65%)]">
+    <div className="p-6  h-90 border rounded-lg shadow-[-5px_-10px_39px_-4px_rgba(0,255,255,0.7),0px_0px_40px_0px_rgba(0,0,255,0.5),0px_0px_60px_0px_rgba(0,0,128,0.3)] w-full bg-[linear-gradient(170deg,_rgba(249,115,22,1),_rgba(219,39,119,1)_26%,_rgba(99,102,241,1)_65%)]">
       {/* Logo */}
       <img
         src={thumbnail_logo}

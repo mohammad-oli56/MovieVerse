@@ -13,47 +13,61 @@ const Navbar = () => {
     return (
         <div className="navbar shadow-sm justify-between px-5  mx-auto  md:px-12 lg:px-16 bg-[linear-gradient(220deg,_rgba(197,20,20,0)_30%,_rgba(68,51,204,0.7)_67%,_rgba(254,2,2,1))]">
             <div className="flex-none">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="font-bold text-xl">MovieVerse</a>
             </div>
 
             <div className="flex  gap-2 ">
                 <NavLink to='/' className='btn'>Home</NavLink>
-              {
-                userprofile?.email&&   <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
-              }
+                {
+                    userprofile?.email && <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
+                }
             </div>
 
             <div className='flex items-center'>
-                
+
 
                 {
                     userprofile?.email && <div className="flex">
-                    <div className="relative group ml-4">
-                        <div className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img
-                                    alt="Tailwind CSS Navbar component"
-                                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                                />
+                        <div className="relative group ml-4">
+                            <div className="btn btn-ghost btn-circle avatar">
+                                <div className="w-10 rounded-full">
+                                    <img
+                                        alt="Tailwind CSS Navbar component"
+                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                                    />
+                                </div>
                             </div>
+                            <ul
+                                className="menu menu-sm absolute right-0 bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-200"
+                            >
+                                <li><a>{
+                                    userprofile?.email
+                                }</a></li>
+                            </ul>
                         </div>
-                        <ul
-                            className="menu menu-sm absolute right-0 bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-200"
-                        >
-                            <li><a>{
-                    userprofile?.email
-                }</a></li>
-                        </ul>
+
+
                     </div>
-
-
-                </div>
                 }
 
                 {
-                    !userprofile?.email && <div className='flex items-center'>
-                        <Link to='/login' className="btn">Login</Link>
-                        <Link to='/signup' className="btn">SignUp</Link>
+                    !userprofile?.email && <div className='flex items-center gap-3.5'>
+                        <Link to='/login'><button class="relative items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                            <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
+                            <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
+                                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
+                            </span>
+                            <span class="relative text-white">Login</span>
+                        </button></Link>
+                        <Link to='/signup' ><button class="relative items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                            <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
+                            <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
+                                <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
+                                <span class="absolute bottom-0 right-0 w-24 h-24 -mr-10 bg-pink-500 rounded-full blur-md"></span>
+                            </span>
+                            <span class="relative text-white">SignUp</span>
+                        </button></Link>
 
                     </div>
                 }
