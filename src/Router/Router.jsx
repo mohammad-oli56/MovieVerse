@@ -9,6 +9,7 @@ import Login from "../Component/Login";
 import Signup from "../Component/Signup";
 import SubDetails from "../Component/SubDetails";
 import Allmovies from "../Component/Allmovies";
+import PrivateRut from "../PrivateRoute/PrivateRut";
 
   export const router = createBrowserRouter([
     {
@@ -42,12 +43,12 @@ import Allmovies from "../Component/Allmovies";
          },
          {
           path:'/subDetails/:id',
-          Component:SubDetails,
+          element:<PrivateRut> <SubDetails></SubDetails> </PrivateRut>,
           loader:()=>fetch("/sub_plan.json")
          },
          {
           path:'allmovies',
-          Component:Allmovies
+         element: <PrivateRut> <Allmovies></Allmovies> </PrivateRut>
          }
       ]
     },

@@ -1,14 +1,20 @@
-import React from 'react';
-import { Link, useLoaderData, useParams } from 'react-router';
+import React  from 'react';
+import { Link, Navigate, useLoaderData, useParams } from 'react-router';
+
 
 const SubDetails = () => {
     const {id}=useParams();
     const data = useLoaderData()
-    console.log(data)
-    
     const singlcard = data.find(data=>data.id == id);
 
-    console.log(singlcard)
+    
+
+    // const navigate = useNavigate()
+    // console.log(userprofile?.email)
+
+    
+
+
 
     const { name, thumbnail_logo, frequency, price, description, features, subscription_benefits, ratings, number_of_reviews, } = singlcard;
     return (
