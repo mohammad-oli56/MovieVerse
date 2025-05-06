@@ -5,8 +5,12 @@ import { useLocation, useNavigate } from 'react-router';
 import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
-  const { uselogin } = useContext(valueContext);
+  const { uselogin,google } = useContext(valueContext);
   const [showPassword, setShowPassword] = useState(false);
+
+  const hendelgoogle =()=>{
+    google()
+  }
 
   const location = useLocation();
   const from = location?.state?.from
@@ -113,7 +117,7 @@ const Login = () => {
        </div>
 
        {/* Google Login Button */}
-       <button className="w-full py-3 border text-black flex items-center justify-center rounded-lg hover:bg-gray-100 transition">
+       <button onClick={hendelgoogle} className="w-full py-3 border text-black flex items-center justify-center rounded-lg hover:bg-gray-100 transition">
          <img
            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
            alt="Google"

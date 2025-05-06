@@ -4,10 +4,15 @@ import { BiHide, BiShow } from 'react-icons/bi';
 import { Helmet } from 'react-helmet-async';
 
 const Signup = () => {
-  const { usesignup } = useContext(valueContext);
+  const { usesignup,google } = useContext(valueContext);
 
   const [passwordError, setPasswordError] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+
+  const hendelgoogle =()=>{
+    google()
+  }
+
 
   const handelsignup = (e) => {
     e.preventDefault();
@@ -112,7 +117,7 @@ const Signup = () => {
         </div>
 
         {/* Google Login */}
-        <button className="w-full py-3 border text-black flex items-center justify-center rounded-lg hover:bg-gray-100 transition">
+        <button onClick={hendelgoogle} className="w-full py-3 border text-black flex items-center justify-center rounded-lg hover:bg-gray-100 transition">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
             alt="Google"
