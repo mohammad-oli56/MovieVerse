@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { valueContext } from '../Rootlayout/Rootlayout';
 import { BiHide, BiShow } from 'react-icons/bi';
+import { Helmet } from 'react-helmet-async';
 
 const Signup = () => {
   const { usesignup } = useContext(valueContext);
@@ -31,7 +32,9 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[linear-gradient(340deg,_rgba(6,182,212,0.7)_23%,_rgba(139,92,246,0.7)_64%,_rgba(236,72,153,0.7))]">
+   <>
+   <Helmet><title>Sign | MovieVerse</title></Helmet>
+   <div className="min-h-screen flex items-center justify-center bg-[linear-gradient(340deg,_rgba(6,182,212,0.7)_23%,_rgba(139,92,246,0.7)_64%,_rgba(236,72,153,0.7))]">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full sm:w-96 my-11">
         <h2 className="text-2xl font-bold text-center text-gray-700 mb-6">
           Create Your MovieVerse Account
@@ -127,6 +130,7 @@ const Signup = () => {
         </p>
       </div>
     </div>
+   </>
   );
 };
 
