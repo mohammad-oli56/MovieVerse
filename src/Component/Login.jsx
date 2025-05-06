@@ -29,13 +29,10 @@ const Login = () => {
     const password = e.target.password.value;
     // console.log(email, password);
 
-    uselogin(email, password)
-
-
-      .then((userCredential) => {
+    uselogin(email, password).then((userCredential) => {
 
         const user = userCredential.user;
-        user
+        
         navigate(from?from:"/")
 
 

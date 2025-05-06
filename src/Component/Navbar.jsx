@@ -12,9 +12,9 @@ const Navbar = () => {
 
     return (
         <div className="navbar shadow-sm justify-between px-5  mx-auto  md:px-12 lg:px-16 bg-[linear-gradient(220deg,_rgba(197,20,20,0)_30%,_rgba(68,51,204,0.7)_67%,_rgba(254,2,2,1))]">
-            <div className="flex-none">
-                <a className="font-bold text-xl">MovieVerse</a>
-            </div>
+           <div className="flex-none ">
+  <h1 className="font-bold text-xl ">MovieVerse</h1>
+</div>
 
             <div className="flex  gap-2 ">
                 <NavLink to='/' className='btn'>Home</NavLink>
@@ -32,8 +32,8 @@ const Navbar = () => {
                             <div className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
                                     <img
-                                        alt="Tailwind CSS Navbar component"
-                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                                        alt='user Pic'
+                                        src={userprofile.photoURL}
                                     />
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
                 {
                     !userprofile?.email && <div className='flex items-center gap-3.5'>
-                        <Link to='/login'><button class="relative items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                        <Link to='/login'><button className="relative items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
                             <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
                             <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
                                 <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>
@@ -60,7 +60,7 @@ const Navbar = () => {
                             </span>
                             <span class="relative text-white">Login</span>
                         </button></Link>
-                        <Link to='/signup' ><button class="relative items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
+                        <Link to='/signup' ><button className="relative  items-center justify-center inline-block p-4 px-5 py-3 overflow-hidden font-medium text-indigo-600 rounded-lg shadow-2xl group">
                             <span class="absolute top-0 left-0 w-40 h-40 -mt-10 -ml-3 transition-all duration-700 bg-red-500 rounded-full blur-md ease"></span>
                             <span class="absolute inset-0 w-full h-full transition duration-700 group-hover:rotate-180 ease">
                                 <span class="absolute bottom-0 left-0 w-24 h-24 -ml-10 bg-purple-500 rounded-full blur-md"></span>

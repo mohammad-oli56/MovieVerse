@@ -11,6 +11,9 @@ const Rootlayout = () => {
     const [loding , setLoding] = useState(true);
     const provider = new GoogleAuthProvider();
 
+    console.log(userprofile)
+
+
    const google = () =>{
 
     signInWithPopup(auth, provider)
@@ -43,18 +46,18 @@ const Rootlayout = () => {
     }
 
     const uselogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed in 
-                const user = userCredential.user;
-                setUserprofile(user);
-                // console.log(user)
-            })
-            .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                console.log(errorCode,errorMessage)
-            });
+      return  signInWithEmailAndPassword(auth, email, password)
+            // .then((userCredential) => {
+            //     // Signed in 
+            //     const user = userCredential.user;
+            //     setUserprofile(user);
+            //     // console.log(user)
+            // })
+            // .catch((error) => {
+            //     const errorCode = error.code;
+            //     const errorMessage = error.message;
+            //     console.log(errorCode,errorMessage)
+            // });
     }
 
     const handelLogout = ()=>{

@@ -24,14 +24,14 @@ const Profile = () => {
   if (!userprofile) return <p className="text-center mt-10">Loading user data...</p>;
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-purple-50 px-4">
+    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4">
       <div className="bg-white border-2 border-purple-300 shadow-lg rounded-xl p-6 w-full max-w-md text-center">
         
-        {/* Avatar */}
+       
         <div className="flex justify-center">
           <img
             className="w-28 h-28 rounded-full border-4 border-purple-500 object-cover"
-            src={userprofile.photoURL || 'https://via.placeholder.com/150'}
+            src={userprofile.photoURL }
             alt="User avatar"
           />
         </div>
@@ -47,7 +47,7 @@ const Profile = () => {
               </div>
               <button
                 onClick={() => setEditing(true)}
-                className="bg-gradient-to-r from-purple-600 via-blue-500 to-red-500 text-white uppercase px-4 py-2 text-sm font-semibold rounded shadow hover:opacity-90 transition"
+                className="bg-gradient-to-r from-purple-600  to-red-500 text-white uppercase px-4 py-2 text-sm font-semibold rounded shadow hover:opacity-90 transition"
               >
                 Edit Name
               </button>
