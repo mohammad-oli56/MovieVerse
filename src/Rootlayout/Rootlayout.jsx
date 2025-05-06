@@ -8,28 +8,14 @@ export const valueContext = createContext()
 
 const Rootlayout = () => {
     const [userprofile,setUserprofile] = useState(null);
+    const [loding , setLoding] = useState(true);
 
-    console.log(userprofile)
+    // console.log(userprofile)
 
     const usesignup = (email, password) => {
 
-        createUserWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed up 
-                const user = userCredential.user;
-                alert("succeassfully")
-              
-                // ...
-            })
-            .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                console.log(errorCode, errorMessage)
-                alert("succerdssdf");
-                // ..
-            });
-
-
+       return createUserWithEmailAndPassword(auth, email, password)
+           
     }
 
     const uselogin = (email, password) => {
@@ -52,7 +38,7 @@ const Rootlayout = () => {
         signOut(auth).then(() => {
             // Sign-out successful.
           }).catch((error) => {
-            // An error happened.
+            console.log(error)
           });
 
     }
@@ -66,6 +52,7 @@ const Rootlayout = () => {
             // console.log(userprofile)
 
             setUserprofile(userprofile);
+            setLoding(false);
 
             if (userprofile) {
               // User is signed in, see docs for a list of available properties
@@ -91,7 +78,8 @@ const Rootlayout = () => {
         usesignup,
         uselogin,
         userprofile,
-        handelLogout
+        handelLogout,
+        loding
     }
 
 // console.log(userprofile);

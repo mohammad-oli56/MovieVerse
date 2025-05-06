@@ -1,15 +1,23 @@
 import React, { useContext } from 'react';
 import { valueContext } from '../Rootlayout/Rootlayout';
-import { Navigate } from 'react-router';
+import { Navigate, useLocation } from 'react-router';
 
 const PrivateRut = ({children}) => {
 
-    const {userprofile}= useContext(valueContext)
+    const {userprofile,loding}= useContext(valueContext)
+    
+    const location = useLocation();
+    console.log(location)
 
-    if(!userprofile?.email){
-       
-       return <Navigate to="/login"></Navigate>
-      }
+    if(loding){
+        return<div>Loging.....</div>
+    }
+
+    if (!userprofile?.email) {
+        return <Navigate to="/login" state={{ from: location.pathname }} />;
+    }
+
+
     return (
         <div>
             {children}

@@ -1,10 +1,21 @@
 import React, { useContext, useState } from 'react';
 import { valueContext } from '../Rootlayout/Rootlayout';
 import { BiHide, BiShow } from 'react-icons/bi';
+import { useLocation, useNavigate } from 'react-router';
 
 const Login = () => {
   const { uselogin } = useContext(valueContext);
   const [showPassword, setShowPassword] = useState(false);
+
+  const location = useLocation();
+  const from = location?.state?.from
+
+
+  console.log(from)
+
+  const navigate = useNavigate()
+
+
 
   const handellogin = (e) => {
     e.preventDefault();
@@ -13,7 +24,27 @@ const Login = () => {
     const password = e.target.password.value;
     // console.log(email, password);
 
-    uselogin(email, password);
+    uselogin(email, password)
+
+
+      .then((userCredential) => {
+
+        const user = userCredential.user;
+        user
+        navigate(from?from:"/")
+
+
+
+        // ...
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        console.log(errorCode, errorMessage)
+        alert("succerdssdf");
+        // ..
+      });
+
   };
 
   return (
@@ -57,7 +88,7 @@ const Login = () => {
               onClick={() => setShowPassword(!showPassword)}
               className="absolute right-3 top-10 text-sm text-gray-600 focus:outline-none"
             >
-              {showPassword ? <BiHide size={20} />: <BiShow size={20} />}
+              {showPassword ? <BiHide size={20} /> : <BiShow size={20} />}
             </button>
           </div>
 
