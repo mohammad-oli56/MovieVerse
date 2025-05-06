@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { valueContext } from '../Rootlayout/Rootlayout';
 import { BiHide, BiShow } from 'react-icons/bi';
 import { Helmet } from 'react-helmet-async';
+import { Navigate, useLocation, useNavigate } from 'react-router';
 
 const Signup = () => {
   const { usesignup,google } = useContext(valueContext);
@@ -9,8 +10,32 @@ const Signup = () => {
   const [passwordError, setPasswordError] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 
+  const location = useLocation();
+  const from = location?.state?.from
+
+
+  console.log(from)
+
+  const navigate = useNavigate()
+
   const hendelgoogle =()=>{
-    google()
+    google().then((result) => {
+      
+       
+        const user = result.user;
+        console.log(user)
+
+
+        navigate(from?from:"/")
+
+        
+        
+      }).catch((error) => {
+        // Handle Errors here.
+      console.log(error)
+        // ...
+      });
+   
   }
 
 
@@ -21,6 +46,10 @@ const Signup = () => {
     const email = e.target.email.value;
     const photo = e.target.photo.value;
     const password = e.target.password.value;
+
+
+
+
 
     // Password validation
     const passwordRegex = /^(?=.*[A-Z])(?=.*\d).{6,}$/;
@@ -33,7 +62,16 @@ const Signup = () => {
     }
 
     setPasswordError('');
-    usesignup(email, password);
+    usesignup(email, password).then((userCredential) => {
+      // Signed up 
+      const user = userCredential.user;
+       navigate(from?from:"/")
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // ..
+    });
   };
 
   return (

@@ -8,9 +8,7 @@ const Login = () => {
   const { uselogin,google } = useContext(valueContext);
   const [showPassword, setShowPassword] = useState(false);
 
-  const hendelgoogle =()=>{
-    google()
-  }
+ 
 
   const location = useLocation();
   const from = location?.state?.from
@@ -20,6 +18,26 @@ const Login = () => {
 
   const navigate = useNavigate()
 
+
+  const hendelgoogle =()=>{
+    google().then((result) => {
+      
+       
+        const user = result.user;
+        console.log(user)
+
+
+        navigate(from?from:"/")
+
+        
+        
+      }).catch((error) => {
+        // Handle Errors here.
+      console.log(error)
+        // ...
+      });
+   
+  }
 
 
   const handellogin = (e) => {
@@ -32,6 +50,8 @@ const Login = () => {
     uselogin(email, password).then((userCredential) => {
 
         const user = userCredential.user;
+
+        console.log(user)
         
         navigate(from?from:"/")
 
