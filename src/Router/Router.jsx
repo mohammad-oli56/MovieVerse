@@ -11,6 +11,7 @@ import SubDetails from "../Component/SubDetails";
 import Allmovies from "../Component/Allmovies";
 import PrivateRut from "../PrivateRoute/PrivateRut";
 import Profile from "../Component/Profile";
+import Review from "../Component/Review";
 
   export const router = createBrowserRouter([
     {
@@ -54,6 +55,10 @@ import Profile from "../Component/Profile";
          {
           path:"/profile",
          element:<PrivateRut> <Profile></Profile></PrivateRut>
+         },
+         {
+          path:'review',
+          Component:Review
          }
       ]
     },
