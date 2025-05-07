@@ -36,11 +36,18 @@ const Profile = () => {
           />
         </div>
 
+        {/* Email Box */}
+        <div className="mt-6 p-3 border border-purple-300 bg-purple-50 rounded">
+          <p className="text-purple-700 font-bold uppercase text-sm">Email</p>
+          <p className="text-purple-600 break-words text-sm">{userprofile.email || 'No email provided'}</p>
+        </div>
+
         {/* Name Box + Edit */}
         <div className="mt-6">
           {!editing ? (
             <>
               <div className="p-3 border border-purple-400 bg-purple-50 rounded mb-2">
+              <p className="text-purple-700 font-bold uppercase text-sm">Name</p>
                 <h2 className="text-2xl font-bold text-purple-700">
                   {userprofile.displayName || 'Unnamed User'}
                 </h2>
@@ -81,11 +88,7 @@ const Profile = () => {
           )}
         </div>
 
-        {/* Email Box */}
-        <div className="mt-6 p-3 border border-purple-300 bg-purple-50 rounded">
-          <p className="text-purple-700 font-bold uppercase text-sm">Email</p>
-          <p className="text-purple-600 break-words text-sm">{userprofile.email || 'No email provided'}</p>
-        </div>
+        
       </div>
     </div>
   );
