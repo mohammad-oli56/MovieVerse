@@ -5,8 +5,9 @@ import { useLocation, useNavigate } from 'react-router';
 import { Helmet } from 'react-helmet-async';
 
 const Login = () => {
-  const { uselogin,google } = useContext(valueContext);
+  const { uselogin,google,handelForgetpass } = useContext(valueContext);
   const [showPassword, setShowPassword] = useState(false);
+  const [userEmail,setUserEmail] = useState("")
 
  
 
@@ -90,6 +91,7 @@ const Login = () => {
            <input
              type="email"
              name="email"
+             onChange={(e)=>setUserEmail(e.target.value)}
              id="email"
              placeholder="Enter your email"
              className="w-full p-3 mt-1 border rounded-md placeholder-gray-400 text-black"
@@ -152,9 +154,9 @@ const Login = () => {
            </a>
          </p>
          <p className="text-sm text-gray-600">
-           <a href="/forgot-password" className="text-purple-600 hover:text-purple-700">
+           <button  onClick={()=>handelForgetpass(userEmail)} className="text-purple-600 hover:text-purple-700">
              Forgot Password?
-           </a>
+           </button>
          </p>
        </div>
      </div>
