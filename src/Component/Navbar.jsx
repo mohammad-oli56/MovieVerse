@@ -18,6 +18,8 @@ const Navbar = () => {
 
             <div className="flex  gap-2 ">
                 <NavLink to='/' className='btn'>Home</NavLink>
+                <NavLink to='/download' className='btn'>Download</NavLink>
+
                 {
                     userprofile?.email && <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
                 }

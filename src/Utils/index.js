@@ -1,0 +1,22 @@
+export const getDownload = ()=>{
+    const Download = localStorage.getItem('Download')
+    if(Download) return JSON.parse(Download)
+        return []
+}
+
+
+export const addDownload =(movie)=>{
+    const Download = getDownload()
+    const isExit = Download.find(down=> down.id == movie.id)
+    if(isExit) return console.log("asa")
+    Download.push(movie);
+    // console.log(Download)
+    localStorage.setItem('Download',JSON.stringify(Download))
+
+}
+
+export const removeDownload = (id)=>{
+    const Download = getDownload()
+    const remainingDownload = Download.filter(download => download.id != id);
+    localStorage.setItem('Download',JSON.stringify(remainingDownload))
+}

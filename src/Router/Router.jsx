@@ -12,6 +12,8 @@ import Allmovies from "../Component/Allmovies";
 import PrivateRut from "../PrivateRoute/PrivateRut";
 import Profile from "../Component/Profile";
 import Review from "../Component/Review";
+import MovieDetals from "../Component/MovieDetals";
+import Download from "../Component/Download";
 
   export const router = createBrowserRouter([
     {
@@ -57,9 +59,18 @@ import Review from "../Component/Review";
          element:<PrivateRut> <Profile></Profile></PrivateRut>
          },
          {
-          path:'review',
+          path:'/review',
           
           element:<PrivateRut> <Review></Review></PrivateRut>
+         },
+         {
+          path:'/moviedetls/:id',
+          Component:MovieDetals,
+          loader:()=>fetch("/movies.json")
+         },
+         {
+          path:'/download',
+          Component:Download
          }
       ]
     },

@@ -2,91 +2,129 @@
     {
       "id": "mv001",
       "title": "Thunderbolts",
+      "Description":"The final installment of Marvel's Stage 5, Thunderbolts introduces a team of antiheroes navigating personal struggles and moral dilemmas. Directed by Jake Schreier, the film explores themes of mental health, focusing on characters like Bob, who transforms into the powerful Sentry and later the villainous Void. The film has received positive reviews, with an 87% critic score and 94% audience score on Rotten Tomatoes.",
+      "Runtime": "2",
+      "ReleaseDate":" May 2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJd8jbGqxTVK86UowQ-LhbIAWe7i-rsIB9Q&s"
     },
     {
       "id": "mv002",
       "title": "Superman",
+      "Description":"A fresh take on the iconic superhero, this film reimagines Clark Kent's origins and his journey to becoming Earth's protector. The movie delves into his internal conflicts and the challenges of balancing his Kryptonian heritage with his human upbringing.",
+      "Runtime": " 2 hours 30 minutes",
+      "ReleaseDate":" June  2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6k-MmtpIpwLo7yhta91hL425YHNzo2fQgaQ&s"
     },
     {
       "id": "mv003",
       "title": "Jurassic World Rebirth",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BYjlmODRkM2YtMDAxOS00ZTA5LTgyYWYtZWI2NjRjMzRkODU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv004",
       "title": "How to Train Your Dragon (Live-Action)",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRMLTI3lCboHQbD7SnI-xv-15lYa7OvqQwOw&s"
     },
     {
       "id": "mv005",
       "title": "Smurfs: The Musical",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BMGVlYjY0ZTQtMDVkNS00NzNlLWE5NmMtODY1MjJmNTI5MTAxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv006",
       "title": "Final Destination: Bloodlines",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BMDU5MTU2ODctMTBhOC00YTljLWE5MGYtNjI5YzZkNDY1ZjI0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv007",
       "title": "The Conjuring: Last Rites",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTk4MDgzNjUtYWEyZS00MGZjLWE4ZmUtN2E1OGNhNDA4OGNkXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": "mv008",
       "title": "Downton Abbey 3",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BZDg5ZGI2OGYtYzYyZS00NzdkLThjYmQtNTI2N2RlMTg3ZjFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv009",
       "title": "Spinal Tap II: The End Continues",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "Release Date":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BZWNmOWQwNDctNmJiMC00MDIyLTlmOWMtZGFjNTBhZjdjOWFjXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
     },
     {
       "id": "mv010",
       "title": "Elio",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-8yN78vhmZAdLir7xTb9EeNT_-F8OlWK6GQ&s"
     },
     {
       "id": "mv011",
       "title": "28 Years Later",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuums3CMJUYNQe4r76FRLV1OPVvMmu_9olnA&s"
     },
     {
       "id": "mv012",
       "title": "The Black Phone 2",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmG2kNv55KEM7f9JVW6poqD-xZKwYjM61_pg&s"
     },
     {
       "id": "mv013",
       "title": "Ballerina",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOEGhbqnlEzPiLOi4IFEvP01wXoL9kjcmUWA&s"
     },
     {
       "id": "mv014",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "title": "I Know What You Did Last Summer (Reboot)",
       "poster": "https://m.media-amazon.com/images/M/MV5BODQyZTUwYmEtZTNlOS00Y2JmLWIzMzUtOWZjZjZmYjQ4ZWFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv015",
       "title": "Wolf Man",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTAxYTE3ZDgtOGM0Zi00MzI1LThhMjUtN2M3NTdjNzMzMGNlXkEyXkFqcGc@._V1_.jpg"
     },
     {
       "id": "mv016",
       "title": "Cleaner",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BMzNjZDZmMmMtYTM3NC00NTUzLWI2ZTItODlkMDAwOWNiNzAzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv017",
       "title": "Battlefield 2025",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://m.media-amazon.com/images/M/MV5BZWNlNjU5OWUtOWRhYi00OTU0LWI2ODMtOTYyMzhhNGI2M2I3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "mv018",
       "title": "Ash",
+      "Description":"Set five years after Jurassic World: Dominion, the planet's ecology has proven largely inhospitable to dinosaurs. Those remaining exist in isolated equatorial environments with climates resembling the one in which they once thrived. A covert operations expert leads a team on a mission to secure dinosaur DNA, aiming to create a life-saving drug, but they encounter unexpected dangers.",
+      "ReleaseDate":" July   2025",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmXsmj_ZHdtGvIALWJ_LASNHWT9I0wtfKnlA&s"
     }
   ]
