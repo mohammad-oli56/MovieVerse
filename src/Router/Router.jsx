@@ -58,7 +58,8 @@ import Review from "../Component/Review";
          },
          {
           path:'review',
-          Component:Review
+          
+          element:<PrivateRut> <Review></Review></PrivateRut>
          }
       ]
     },
