@@ -1,6 +1,6 @@
 import React from 'react';
-import { MdBookmarkAdd, MdFileDownload, MdOutlineWatchLater } from 'react-icons/md';
-import { useLoaderData, useParams } from 'react-router';
+import { MdBookmarkAdd, MdDelete, MdFileDownload, MdOutlineWatchLater } from 'react-icons/md';
+import { Link, useLoaderData, useParams } from 'react-router';
 import { addDownload } from '../Utils';
 
 const MovieDetals = () => {
@@ -34,7 +34,7 @@ const MovieDetals = () => {
 
                    <button className='btn'>Save to Watch Later<MdOutlineWatchLater /></button>
 
-                   <button onClick={handeldownload} className='btn'>Download <MdFileDownload /> </button>
+                   <Link to='/download' onClick={handeldownload} className='btn'><MdDelete size={25} /> <MdFileDownload /> </Link>
 
 
                 </div>

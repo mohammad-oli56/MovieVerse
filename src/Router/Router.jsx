@@ -65,12 +65,14 @@ import Download from "../Component/Download";
          },
          {
           path:'/moviedetls/:id',
-          Component:MovieDetals,
+          // Component:MovieDetals,
+          element:<PrivateRut> <MovieDetals></MovieDetals></PrivateRut>,
           loader:()=>fetch("/movies.json")
          },
          {
           path:'/download',
-          Component:Download
+          // Component:Download
+          element:<PrivateRut> <Download></Download></PrivateRut>
          }
       ]
     },
