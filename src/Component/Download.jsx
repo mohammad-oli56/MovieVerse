@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getDownload, removeDownload } from '../Utils';
 import SingleDownload from './SingleDownload';
+import { Helmet } from 'react-helmet-async';
 
 const Download = () => {
     const [getdown, setDown] = useState([]);
@@ -16,6 +17,8 @@ const Download = () => {
     };
 
     return (
+        <>
+        <Helmet><title>Movieverse | Download</title></Helmet>        
         <div className='w-9/12 mx-auto my-4'>
             {
                 getdown.length === 0 ? (
@@ -33,6 +36,7 @@ const Download = () => {
                 )
             }
         </div>
+        </>
     );
 };
 

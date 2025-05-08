@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router';
 import Swal from 'sweetalert2';
 
@@ -40,6 +41,8 @@ const Review = () => {
   };
 
   return (
+    <>
+    <Helmet><title>movieverse | Experience</title></Helmet>
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4 py-10">
       <div className="bg-white w-full max-w-lg p-8 rounded-lg shadow-lg border text-center">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Share Your Experience</h2>
@@ -93,6 +96,7 @@ const Review = () => {
         </Link>
       </div>
     </div>
+    </>
   );
 };
 

@@ -4,6 +4,7 @@ import Footer from '../Component/Footer';
 import { Outlet } from 'react-router';
 import { auth } from '../Firebase/firebase.config';
 import { createUserWithEmailAndPassword, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { ToastContainer } from 'react-toastify';
 export const valueContext = createContext()
 
 const Rootlayout = () => {
@@ -122,6 +123,7 @@ const Rootlayout = () => {
 
       </valueContext.Provider>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };

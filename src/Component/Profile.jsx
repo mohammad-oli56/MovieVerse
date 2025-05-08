@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { updateProfile } from 'firebase/auth';
 import { valueContext } from '../Rootlayout/Rootlayout'; // Adjust this path as needed
+import { Helmet } from 'react-helmet-async';
 
 const Profile = () => {
   const { userprofile } = useContext(valueContext);
@@ -24,6 +25,7 @@ const Profile = () => {
   if (!userprofile) return <p className="text-center mt-10">Loading user data...</p>;
 
   return (
+    <>
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4">
       <div className="bg-white border-2 border-purple-300 shadow-lg rounded-xl p-6 w-full max-w-md text-center">
         
@@ -46,6 +48,7 @@ const Profile = () => {
         <div className="mt-6">
           {!editing ? (
             <>
+            <Helmet><title>Movieverse | Profile</title></Helmet>
               <div className="p-3 border border-purple-400 bg-purple-50 rounded mb-2">
               <p className="text-purple-700 font-bold uppercase text-sm">Name</p>
                 <h2 className="text-2xl font-bold text-purple-700">
@@ -91,6 +94,7 @@ const Profile = () => {
         
       </div>
     </div>
+    </>
   );
 };
 

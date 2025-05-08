@@ -77,7 +77,7 @@ import SaveForNext from "../Component/SaveForNext";
          },
          {
           path:'/Watch',
-          element:<SaveForNext></SaveForNext>
+          element:<PrivateRut><SaveForNext></SaveForNext></PrivateRut> 
          }
       ]
     },
