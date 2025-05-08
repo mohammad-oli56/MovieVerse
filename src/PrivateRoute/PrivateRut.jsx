@@ -7,7 +7,7 @@ const PrivateRut = ({ children }) => {
     const { userprofile, loding } = useContext(valueContext)
 
     const location = useLocation();
-    console.log(location)
+    // console.log(location)
 
     if (loding) {
         return <div className="flex flex-col items-center justify-center min-h-screen space-y-2">

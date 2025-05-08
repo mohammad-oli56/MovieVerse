@@ -2,6 +2,7 @@ import React from 'react';
 import { MdBookmarkAdd, MdDelete, MdFileDownload, MdOutlineWatchLater } from 'react-icons/md';
 import { Link, useLoaderData, useParams } from 'react-router';
 import { addDownload } from '../Utils';
+import { addsavenext } from '../Utils/index2';
 
 const MovieDetals = () => {
     const { id } = useParams();
@@ -14,6 +15,12 @@ const MovieDetals = () => {
     const handeldownload =()=>{
         addDownload(singleMovie);
     }
+
+    const handelSavenext =()=>{
+        addsavenext(singleMovie)
+    }
+
+
 
     const { title, poster,Description,ReleaseDate } = singleMovie
     return (
@@ -32,7 +39,7 @@ const MovieDetals = () => {
                     <p><span className='font-bold'>Release Date </span>: {ReleaseDate}</p>
 
 
-                   <button className='btn'>Save to Watch Later<MdOutlineWatchLater /></button>
+                   <Link to='/Watch' onClick={handelSavenext} className='btn'>Save to Watch Later<MdOutlineWatchLater /></Link>
 
                    <Link to='/download' onClick={handeldownload} className='btn'><MdDelete size={25} /> <MdFileDownload /> </Link>
 

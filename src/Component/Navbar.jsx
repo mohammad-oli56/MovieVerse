@@ -54,6 +54,7 @@ const Navbar = () => {
                         {
                             userprofile?.email && <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
                         }
+                        <NavLink to='/Watch' className='btn'>Watch</NavLink>
                     </ul>
                 </div>
 

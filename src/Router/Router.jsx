@@ -14,6 +14,7 @@ import Profile from "../Component/Profile";
 import Review from "../Component/Review";
 import MovieDetals from "../Component/MovieDetals";
 import Download from "../Component/Download";
+import SaveForNext from "../Component/SaveForNext";
 
   export const router = createBrowserRouter([
     {
@@ -73,6 +74,10 @@ import Download from "../Component/Download";
           path:'/download',
           // Component:Download
           element:<PrivateRut> <Download></Download></PrivateRut>
+         },
+         {
+          path:'/Watch',
+          element:<SaveForNext></SaveForNext>
          }
       ]
     },

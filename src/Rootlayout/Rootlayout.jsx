@@ -11,7 +11,7 @@ const Rootlayout = () => {
   const [loding, setLoding] = useState(true);
   const provider = new GoogleAuthProvider();
 
-  console.log(userprofile)
+  // console.log(userprofile)
 
 
   const google = () => {
