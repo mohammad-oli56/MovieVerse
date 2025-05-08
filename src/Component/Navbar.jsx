@@ -30,12 +30,13 @@ const Navbar = () => {
                         {
                             userprofile?.email && <NavLink to='/download' className='btn'>Download</NavLink>
                         }
+                         {
+                           userprofile?.email && <NavLink to='/Watch' className='btn'>Your Videos</NavLink>
+                        }
                         {
                             userprofile?.email && <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
                         }
-                        {
-                           userprofile?.email && <NavLink to='/Watch' className='btn'>Watch</NavLink>
-                        }
+                       
                         </ul>
                     </div>
 
@@ -49,17 +50,18 @@ const Navbar = () => {
 
 
                 <div className="navbar-center hidden lg:flex ">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal space-x-2 px-1">
                         <NavLink to='/' className='btn'>Home</NavLink>
                         {
                             userprofile?.email && <NavLink to='/download' className='btn'>Download</NavLink>
                         }
+                         {
+                           userprofile?.email && <NavLink to='/Watch' className='btn'>Your Videos</NavLink>
+                        }
                         {
                             userprofile?.email && <NavLink to='/profile' className='btn'>Your-Profile</NavLink>
                         }
-                        {
-                           userprofile?.email && <NavLink to='/Watch' className='btn'>Watch</NavLink>
-                        }
+                       
                     </ul>
                 </div>
 

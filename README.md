@@ -1,12 +1,74 @@
-# React + Vite
+## 🎬 Movieverse – Subscription Movie Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Movieverse is a dynamic movie-streaming platform built with React, designed to let users discover, subscribe to, and enjoy movies seamlessly. Users can explore special subscription offers, securely register and log in, manage their profiles, download movies, and save their favorites—all in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🌐 Live URL
+
+[🔗 Visit Live Site](https://gilded-cocada-e311bd.netlify.app/)  
+
+
+---
+
+## 🎯 Purpose
+
+To provide an easy-to-use platform for Subscription and watch movie option to users:
+- Explore spacial Subscription Offer
+- Enjoy Movies
+- View detailed information
+- Register and login securely
+- Manage their own profile
+
+
+---
+
+## ✨ Key Features
+
+- 🔐 *User Authentication* via Firebase (Email/Password & Google)
+- 🔒 *Protected Routes* (e.g. Event Details, My Profile)
+- 📄 *Dynamic Subscription Details Page* with seat reservation
+- 📄 *Subscription Review Page
+- 📄 *Dynamic Movie Details Page* with seat reservation
+- 📄 *movie Download Page
+- 📄 *Download movie save localstorage Page
+- 📄 *watch letter Page
+- 📄 *watch letter save localstorage Page
+- 🧑 *User Profile Update* (name, email, photo)
+- 🔁 *Persistent Login* using Firebase onAuthStateChanged
+- 🧭 *404 Not Found Page*
+- 📬 *Forget Password* reset functionality
+
+---
+
+## 🚀 Technologies & Packages Used
+
+- *React*
+- *React Router DOM*
+- *Firebase Authentication*
+- *Tailwind CSS* + *DaisyUI*
+- *React Icons*
+- *Aos animation*
+- *tools
+- *Tailwindcss Button
+
+---
+
+## 🙋‍♂ Author
+
+*Md oli Ullah*  
+Junior Web Developer | CSE, Dhaka International University  
+GitHub link: https://github.com/mohammad-oli56
+
+---
+
+## 🎨 UI Color Theme
+
+ Inspired By  [Programing Hero](LICENSE) website.
+
+## 📜 Gided by
+
+ [Programing Hero](LICENSE).
