@@ -9,7 +9,7 @@ Movieverse is a dynamic movie-streaming platform built with React, designed to l
 
 ## 🌐 Live URL
 
-[🔗 Visit Live Site](https://gilded-cocada-e311bd.netlify.app/)  
+[🔗 Visit Live Site](https://dainty-clafoutis-c0645b.netlify.app/)  
 
 
 ---
@@ -67,7 +67,7 @@ GitHub link: https://github.com/mohammad-oli56
 
 ## 🎨 UI Color Theme
 
- Inspired By  [Programing Hero](LICENSE) website.
+ Inspired By Programing Hero. (https://www.programming-hero.com/) website.
 
 ## 📜 Gided by
 
